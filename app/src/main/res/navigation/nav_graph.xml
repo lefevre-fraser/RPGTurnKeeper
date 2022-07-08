@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ActionScreenNav">
+
+    <fragment
+        android:id="@+id/TurnScreenNav"
+        android:name="com.example.rpgturnkeeper.TurnScreen"
+        android:label="@string/turn_screen_label"
+        tools:layout="@layout/turn_screen">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/ActionScreenNav" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ActionScreenNav"
+        android:name="com.example.rpgturnkeeper.ActionScreen"
+        android:label="@string/bonus_action_screen_label"
+        tools:layout="@layout/bonus_action_screen">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/TurnScreenNav" />
+    </fragment>
+</navigation>

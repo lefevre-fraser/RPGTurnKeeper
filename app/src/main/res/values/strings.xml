@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">RPGTurnKeeper</string>
+    <string name="action_settings">Settings</string>
+
+    <!--  Remove: Reason: Old  -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="turn_screen_label">Turn Phases</string>
+    <string name="action_screen_label">Actions</string>
+    <string name="bonus_action_screen_label">Bonus Actions</string>
+    <string name="reaction_screen_label">Reactions</string>
+
+    <array name="turn_phases">
+        <item>Action</item>
+        <item>Bonus Action</item>
+        <item>Reactions</item>
+    </array>
+
+    <array name="actions">
+        <item>Attack</item>
+        <item>Cast Spell</item>
+        <item>Ready Attack</item>
+        <item>Other</item>
+    </array>
+
+    <array name="bonus_actions">
+        <item>Action</item>
+        <item>Bonus Action</item>
+        <item>Reactions</item>
+    </array>
+
+    <array name="reactions">
+        <item>Action</item>
+        <item>Bonus Action</item>
+        <item>Reactions</item>
+    </array>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="email_icon_description">Hello second fragment. Arg: %1$s</string>
+</resources>
